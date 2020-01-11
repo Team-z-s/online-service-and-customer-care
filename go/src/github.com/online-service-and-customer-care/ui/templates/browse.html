@@ -1,0 +1,19 @@
+<div class="col-md-8">
+    <div class="single-product-items">
+        <div class="product-item-image">
+            <a href="company_detail.php?company_id='.$row['id'].'"><img src="'.$row['logo'].'" alt="Product"></a>
+        </div>
+        {{$company := comp .}}
+        {{range .Company }}
+        <div class="product-item-content text-center mt-30">
+            <div class="product-item-image">
+                <a href="##############"><img src="{{.Image}}" alt="Product"></a>
+            </div>
+            <h5 class="product-title"><a href="#">{{ .Name}}</a></h5><br>
+            Location: <span class="regular-price">{{ .Location}}</span><br>
+            Phone: <span class="regular-price">{{ .Phone}}</span><br>
+            Email: <span class="regular-price">{{ .Email}}</span>
+        </div>
+        {{ end }}
+    </div> <!-- single product items -->
+</div>
