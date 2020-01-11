@@ -1,0 +1,51 @@
+{{define "addemployee.content"}}
+<div class="container">
+	<section id="content">
+		<form action="POST" id="registration_form">
+			<h1>Add Employee</h1>
+			<div>
+				<input type="text" placeholder="First name" required id="
+				" />
+			</div>
+			<div>
+				<input type="text" placeholder="Last name" required id="lastname" />
+			</div>
+			<div>
+				<input type="text" placeholder="City" required id="city" />
+			</div>
+			<div>
+				<input type="text" placeholder="Street/Kebele" required id="street_kebele" />
+			</div>
+			<div>
+				<input type="number" placeholder="Phone number" required id="phone" />
+			</div>
+			<div>
+				<input type="email" placeholder="Email" required id="email" />
+			</div>
+			<div>
+				<input type="number" placeholder="Salary" required id="salary" />
+			</div>
+            <div>
+				<input type="text" placeholder="Username" required id="Username" />
+			</div>
+            <div>
+				<input type="password" placeholder="Password" required id="Password" />
+			</div>
+			<div><p align="left" style="padding-left: 40px;">Shift:</p>
+				<select id="shift">
+					<option value="day">Day</option>
+					<option value="night">Night</option>
+				</select>
+				<br>
+				<span id="register_err" style="color: #f00;"></span>
+				<span id="register_sucess" style="color: #009933;"></span>
+			</div>
+			<div>
+				<input type="submit" value="Add" style="padding: 0px !important"/>
+				<input type="reset" value="Clear" style="padding: 0px !important"/>
+			</div>
+		</form><!-- form -->
+	</section><!-- content -->
+</div><!-- container -->
+
+{{end}}
