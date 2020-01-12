@@ -1,0 +1,7 @@
+{{define "LogIn.layout"}}
+
+{{template "navbar" .}}
+{{template "LogIn.content" .}}
+{{ template "footer" . }}
+
+{{ end }}
