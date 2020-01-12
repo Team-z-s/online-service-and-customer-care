@@ -1,0 +1,20 @@
+{{define "add_service"}}
+<div class="container">
+	
+	<section id="content">
+		<form action="" id="registration_form">
+			<h1>Add Service</h1>
+			<div>
+				<textarea placeholder="Service" required id="service" style="resize: none;" ></textarea>
+				<br>
+				<span id="register_err" style="color: #f00;"></span>
+				<span id="register_sucess" style="color: #009933;"></span>
+			</div>
+			<div>
+				<input type="submit" value="Add" style="padding: 0px !important"/>
+				<input type="reset" value="Clear" style="padding: 0px !important"/>
+			</div>
+		</form><!-- form -->
+	</section><!-- content -->
+</div><!-- container -->
+{{end}}

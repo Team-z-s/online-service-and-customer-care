@@ -1,0 +1,7 @@
+{{define "addemployee.layout"}}
+
+{{template "navbar" .}}
+{{template "addemployee.content" .}}
+{{ template "footer" . }}
+
+{{ end }}

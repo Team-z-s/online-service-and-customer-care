@@ -1,0 +1,36 @@
+{{define "add_company_body"}}
+
+<div class="container">
+
+    <section id="content">
+		<form action="" id="registration_form" enctype="multipart/form-data">
+			<h1>Add Company</h1>
+			<div>
+				<input type="text" placeholder="Company name" required id="company_name" />
+			</div>
+			<div>
+				<input type="text" placeholder="City" required id="city" />
+			</div>
+			<div>
+				<input type="text" placeholder="Street/Kebele" required id="street_kebele" />
+			</div>
+			<div>
+				<input type="text" placeholder="Phone" required id="phone" />
+			</div>
+			<div>
+				<input type="email" placeholder="Email" required id="email" />
+				<br>
+				<span id="register_err" style="color: #f00;"></span>
+				<span id="register_sucess" style="color: #009933;"></span>
+            </div>
+            <div>
+                <input type="file" placeholder="company logo" required id ="logo">
+            </div>
+			<div>
+				<input type="submit" value="Add" style="padding: 0px !important"/>
+				<input type="reset" value="Clear" style="padding: 0px !important"/>
+			</div>
+		</form><!-- form -->
+	</section><!-- content -->
+</div>
+{{end}}

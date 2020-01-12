@@ -1,0 +1,15 @@
+.logoImg{
+
+    margin-left: 40%;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text
+ {
+    color:wheat ;
+} 
+.nav-link{
+    color:wheat ;
+}
+.nav-link:hover{
+    color: skyblue;
+}
